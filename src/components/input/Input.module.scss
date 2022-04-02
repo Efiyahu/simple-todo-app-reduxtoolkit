@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  flex-direction: column;
+
+  input {
+    padding: 1rem 3rem 1rem 0.5rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: 0;
+    position: relative;
+    margin-right: 1rem;
+  }
+
+  button {
+    border: none;
+    padding: 1rem 3rem;
+    background-color: purple;
+    color: #eee;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(148, 46, 148);
+      transform: scale(1.01);
+    }
+
+    &:active {
+      transform: scale(0.99);
+    }
+  }
+}

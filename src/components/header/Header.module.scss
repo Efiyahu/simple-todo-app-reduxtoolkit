@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: rgb(165, 32, 165);
+  color: #eee;
+
+  .title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}

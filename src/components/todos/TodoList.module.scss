@@ -1,0 +1,19 @@
+.todos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  min-height: 400px;
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2);
+
+  .title {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    font-style: italic;
+    font-size: 0.7rem;
+    color: grey;
+    margin: 0;
+  }
+}
